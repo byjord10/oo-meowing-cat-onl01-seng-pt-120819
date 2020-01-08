@@ -1,5 +1,5 @@
 class Cat
-  attr_accessor :name, :meow
+  attr_accessor :name
 
   def name=(name)
     @name = name
@@ -9,11 +9,4 @@ class Cat
     @name
   end
 
-  def meow=(meow)
-    @meow = meow
-  end
-
-  def meow
-    @meow
-  end 
 end
